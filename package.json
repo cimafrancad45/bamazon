@@ -1,21 +1,23 @@
 {
   "name": "bamazon",
   "version": "1.0.0",
-  "description": "",
-  "main": "bamazoncustomer.js",
+  "description": "CLI SQL app",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "mysql2": "^1.6.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dicimafran/bamazon.git"
+    "url": "git+https://github.com/cimafrancad45/bamazon.git"
   },
-  "keywords": [],
   "author": "Daryl Cimafranca",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^6.0.0",
-    "inquirer": "^6.2.0",
-    "mysql": "^2.16.0"
-  }
+  "bugs": {
+    "url": "https://github.com/cimafrancad45/bamazon/issues"
+  },
+  "homepage": "https://github.com/cimafrancad45/bamazon#readme"
 }
