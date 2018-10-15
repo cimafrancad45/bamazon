@@ -4,6 +4,7 @@
   "description": "CLI SQL app",
   "main": "bamazonCustomer.js",
   "dependencies": {
+    "inquirer": "^6.2.0",
     "mysql2": "^1.6.1"
   },
   "devDependencies": {},
